@@ -1,0 +1,84 @@
+
+SQL*Loader: Release 12.2.0.1.0 - Production on Tue Mar 31 18:13:18 2020
+
+Copyright (c) 1982, 2017, Oracle and/or its affiliates.  All rights reserved.
+
+Control File:   temp.ctl
+Data File:      G:\temp.dat
+  Bad File:     temp.bad
+  Discard File:  none specified
+ 
+ (Allow all discards)
+
+Number to load: ALL
+Number to skip: 0
+Errors allowed: 50
+Bind array:     64 rows, maximum of 256000 bytes
+Continuation:    none specified
+Path used:      Conventional
+
+Table DW_TEMP, loaded from every logical record.
+Insert option in effect for this table: INSERT
+
+   Column Name                  Position   Len  Term Encl Datatype
+------------------------------ ---------- ----- ---- ---- ---------------------
+TEMPID                              FIRST     *   ,  O(") CHARACTER            
+TITLE                                NEXT     *   ,  O(") CHARACTER            
+FIRST_NAME                           NEXT     *   ,  O(") CHARACTER            
+LAST_NAME                            NEXT     *   ,  O(") CHARACTER            
+ADDRESS_LINE_1                       NEXT     *   ,  O(") CHARACTER            
+ADDRESS_LINE_2                       NEXT     *   ,  O(") CHARACTER            
+TOWN                                 NEXT     *   ,  O(") CHARACTER            
+COUNTY                               NEXT     *   ,  O(") CHARACTER            
+POSTCODE                             NEXT     *   ,  O(") CHARACTER            
+TEL_HOME                             NEXT     *   ,  O(") CHARACTER            
+FAX_HOME                             NEXT     *   ,  O(") CHARACTER            
+TEL_WORK                             NEXT     *   ,  O(") CHARACTER            
+FAX_WORK                             NEXT     *   ,  O(") CHARACTER            
+EMAIL                                NEXT     *   ,  O(") CHARACTER            
+MOBILE_PHONE                         NEXT     *   ,  O(") CHARACTER            
+APP_SENT                             NEXT     *   ,  O(") CHARACTER            
+GENDER                               NEXT     *   ,  O(") CHARACTER            
+CURRENT_STATUS                       NEXT     *   ,  O(") CHARACTER            
+DATE_OF_BIRTH                        NEXT     *   ,  O(") CHARACTER            
+NATIONALITY                          NEXT     *   ,  O(") CHARACTER            
+USE_OF_CAR                           NEXT     *   ,  O(") CHARACTER            
+QUALIFICATION_YEAR                   NEXT     *   ,  O(") CHARACTER            
+QUALIFICATION_PLACE                  NEXT     *   ,  O(") CHARACTER            
+TYPE_OF_COVER_PREFERRED              NEXT     *   ,  O(") CHARACTER            
+MONDAY_AM                            NEXT     *   ,  O(") CHARACTER            
+MONDAY_PM                            NEXT     *   ,  O(") CHARACTER            
+TUESDAY_AM                           NEXT     *   ,  O(") CHARACTER            
+TUESDAY_PM                           NEXT     *   ,  O(") CHARACTER            
+WEDNESDAY_AM                         NEXT     *   ,  O(") CHARACTER            
+WEDNESDAY_PM                         NEXT     *   ,  O(") CHARACTER            
+THURSDAY_AM                          NEXT     *   ,  O(") CHARACTER            
+THURSDAY_PM                          NEXT     *   ,  O(") CHARACTER            
+FRIDAY_AM                            NEXT     *   ,  O(") CHARACTER            
+FRIDAY_PM                            NEXT     *   ,  O(") CHARACTER            
+SATURDAY_AM                          NEXT     *   ,  O(") CHARACTER            
+TEMP_REGISTRATION_STATUS             NEXT     *   ,  O(") CHARACTER            
+APP_RECEIVED                         NEXT     *   ,  O(") CHARACTER            
+TEMPSTATUS                           NEXT     *   ,  O(") CHARACTER           
+
+
+Table DW_TEMP:
+  182 Rows successfully loaded.
+  0 Rows not loaded due to data errors.
+  0 Rows not loaded because all WHEN clauses were failed.
+  0 Rows not loaded because all fields were null.
+
+
+Space allocated for bind array:                  66048 bytes(64 rows)
+Read   buffer bytes: 1048576
+
+Total logical records skipped:          0
+Total logical records read:           182
+Total logical records rejected:         0
+Total logical records discarded:        0
+
+Run began on Tue Mar 31 18:13:18 2020
+Run ended on Tue Mar 31 18:13:19 2020
+
+Elapsed time was:     00:00:00.34
+CPU time was:         00:00:00.14

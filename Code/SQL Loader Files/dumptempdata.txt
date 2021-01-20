@@ -1,0 +1,17 @@
+set feedback off
+set pagesize 0
+set termout off
+set linesize 1000
+set heading off
+set echo off
+spool on
+spool G:\temp.dat
+select emp_Id||','||'"'||lname||'"'||','||'"'||fname||'"'||','||'"'||Salary||'"' 
+From staff;
+spool off
+set feedback on
+set pagesize 24
+set termout on
+set linesize 80
+set heading on
+set echo on
